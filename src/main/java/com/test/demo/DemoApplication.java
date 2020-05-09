@@ -1,8 +1,8 @@
 package com.test.demo;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 /***
 * @Description:  测试启动
@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 * @Date: 2020/5/6
 */
 @SpringBootApplication
-@MapperScan(basePackages = {"com.test.demo.*"})
+@ComponentScan(basePackages = {"com.test.demo.*"})
 public class DemoApplication {
 
     public static void main(String[] args) {
