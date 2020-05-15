@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.List;
-import java.util.UUID;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 /**
  * @description: 测试用例
@@ -32,4 +32,7 @@ public class HelloController {
         return tests;
     }
 
+    public static void main(String[] args) {
+
+    }
 }
