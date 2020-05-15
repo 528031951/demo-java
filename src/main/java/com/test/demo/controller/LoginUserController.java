@@ -1,6 +1,5 @@
 package com.test.demo.controller;
 
-import com.test.demo.constants.StatusCode;
 import com.test.demo.service.TestUserService;
 import com.test.demo.utli.Result;
 import org.springframework.web.bind.annotation.GetMapping;
